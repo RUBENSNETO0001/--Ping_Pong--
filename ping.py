@@ -31,13 +31,13 @@ raquete_b.goto(350, 0)
 
 # Bola
 bola = turtle.Turtle()
-bola.speed(10)
+bola.speed(100)
 bola.shape("square")
 bola.color("white")
 bola.penup()
 bola.goto(0, 0)
-bola.dx = 0.4
-bola.dy = 0.4
+bola.dx = 0.5
+bola.dy = 0.5
 
 # Placar
 placar = turtle.Turtle()
